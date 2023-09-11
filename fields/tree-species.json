@@ -1,4 +1,4 @@
-[
+
 {
     "key": "gllocation",
     "type": "select_one",
@@ -101,4 +101,3 @@
 		"Mục đích khác"
 	]
 }
-]
