@@ -1,0 +1,15 @@
+{
+    "key": "tree_purpose",
+    "type": "select_multiple",
+    "label": "Mục đích trồng",
+    "placeholder": "Có thể chọn 1 hoặc nhiều mục đích",
+    "options": [
+		"Bờ bao chắn gió",
+		"Bờ kè",
+		"Bóng mát khuôn viên",
+		"Cảnh quan đường phố",
+		"Lấy gỗ",
+		"Trồng rừng",
+		"Mục đích khác"
+	]
+}
