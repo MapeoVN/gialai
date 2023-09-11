@@ -1,3 +1,4 @@
+[
 {
     "key": "location",
     "type": "select_one",
@@ -8,7 +9,7 @@
     	"Đăk Rong",
        	"Khác"
 	]
-}
+},
 
 {
     "key": "species",
@@ -37,7 +38,7 @@
 		"Xà cừ",
 		"Khác"
   	]
-}
+},
 
 {
     "key": "year",
@@ -52,7 +53,7 @@
 		"2023",
 		"Khác"
 	]
-}
+},
 
 {
     "key": "tree-status",
@@ -67,7 +68,7 @@
 		"Nấm bệnh",
 		"Gãy thân"
 	]
-}
+},
 
 {
     "key": "planter",
@@ -83,7 +84,7 @@
 		"Doanh nghiệp",
 		"Khác"
 	]
-}
+},
 
 {
     "key": "purpose",
@@ -100,3 +101,4 @@
 		"Mục đích khác"
 	]
 }
+]
