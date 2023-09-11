@@ -1,7 +1,7 @@
 {
     "key": "name",
-    "type": "localized",
-    "label": "Name",
-    "universal": true,
-    "placeholder": "Common name of this place"
+    "type": "select_one",
+    "label": "Địa điểm",
+    "placeholder": "Chọn 1 địa điểm",
+    "options": ["Ia Pếch", "Đăk Rong", "Khác"]
 }
