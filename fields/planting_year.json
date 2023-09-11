@@ -1,0 +1,14 @@
+{
+    "key": "planting_year",
+    "type": "select_one",
+    "label": "Năm trồng",
+    "placeholder": "Chọn năm cây được trồng",
+    "options": [
+    	"2019",
+		"2020",
+		"2021",
+		"2022",
+		"2023",
+		"Khác"
+	]
+}
