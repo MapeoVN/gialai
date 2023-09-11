@@ -1,6 +1,6 @@
 [
 {
-    "key": "location",
+    "key": "gllocation",
     "type": "select_one",
     "label": "Địa điểm",
     "placeholder": "Chọn 1 địa điểm",
@@ -12,7 +12,7 @@
 },
 
 {
-    "key": "species",
+    "key": "plant_species",
     "type": "select_one",
     "label": "Tên loài",
     "placeholder": "Chọn tên loài cây đang quan sát",
@@ -41,7 +41,7 @@
 },
 
 {
-    "key": "year",
+    "key": "planting_year",
     "type": "select_one",
     "label": "Năm trồng",
     "placeholder": "Chọn năm cây được trồng",
