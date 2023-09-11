@@ -4,11 +4,7 @@
     "type": "select_one",
     "label": "Địa điểm",
     "placeholder": "Chọn 1 địa điểm",
-    "options": [
-    	"Ia Pếch",
-    	"Đăk Rong",
-       	"Khác"
-	]
+    "options": ["Ia Pếch", "Đăk Rong", "Khác"]
 },
 
 {
