@@ -1,0 +1,102 @@
+{
+    "key": "location",
+    "type": "select_one",
+    "label": "Địa điểm",
+    "placeholder": "Chọn 1 địa điểm",
+    "options": [
+    	"Ia Pếch",
+    	"Đăk Rong",
+       	"Khác"
+	]
+}
+
+{
+    "key": "species",
+    "type": "select_one",
+    "label": "Tên loài",
+    "placeholder": "Chọn tên loài cây đang quan sát",
+    "options": [
+    	"Bạch đàn",
+		"Bằng Lăng",
+		"Bàng Nhật bản",
+		"Bời lời",
+		"Cao su",
+		"Điều",
+		"Giáng hương",
+		"Giổi xanh",
+		"Huỳnh đàn",
+		"Keo lá tràm",
+		"Keo tai tượng",
+		"Lộc vừng",
+		"Mắc ca",
+		"Muồng đen",
+		"Sa kê",
+		"Sao đen",
+		"Sao xanh",
+		"Thông ba lá",
+		"Xà cừ",
+		"Khác"
+  	]
+}
+
+{
+    "key": "year",
+    "type": "select_one",
+    "label": "Năm trồng",
+    "placeholder": "Chọn năm cây được trồng",
+    "options": [
+    	"2019",
+		"2020",
+		"2021",
+		"2022",
+		"2023",
+		"Khác"
+	]
+}
+
+{
+    "key": "tree-status",
+    "type": "select_one",
+    "label": "Tình trạng cây",
+    "placeholder": "Đánh giá tình trạng cây đang quan sát",
+    "options": [
+    	"Sinh trưởng trung bình",
+		"Sinh trưởng tốt",
+		"Sinh trưởng kém",
+		"Sâu bệnh",
+		"Nấm bệnh",
+		"Gãy thân"
+	]
+}
+
+{
+    "key": "planter",
+    "type": "select_one",
+    "label": "Do ai trồng?",
+    "placeholder": "Xác định đối tượng trồng cây",
+    "options": [
+    	"Meteorological",
+    	"Air",
+    	"Soil",
+    	"Water",
+    	"Mineral",
+        "Forestry/vegetation",
+    	"Other"
+	]
+}
+
+{
+    "key": "purpose",
+    "type": "select_multiple",
+    "label": "Mục đích trồng",
+    "placeholder": "Có thể chọn 1 hoặc nhiều mục đích",
+    "options": [
+		"Bờ bao chắn gió",
+		"Bờ kè",
+		"Bóng mát khuôn viên",
+		"Cảnh quan đường phố",
+		"Lấy gỗ",
+		"Trồng rừng",
+		"Mục đích khác"
+	]
+}
