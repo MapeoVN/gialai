@@ -1,4 +1,13 @@
 {
+{
+    "key": "gllocation",
+    "type": "select_one",
+    "label": "Địa điểm",
+    "placeholder": "Chọn 1 địa điểm",
+    "options": ["Ia Pếch", "Đăk Rong", "Khác"]
+},
+
+{
     "key": "gl_species",
     "type": "select_one",
     "label": "Tên loài",
@@ -25,4 +34,67 @@
 		"Xà cừ",
 		"Khác"
   	]
+},
+
+{
+    "key": "planting_year",
+    "type": "select_one",
+    "label": "Năm trồng",
+    "placeholder": "Chọn năm cây được trồng",
+    "options": [
+    	"2019",
+		"2020",
+		"2021",
+		"2022",
+		"2023",
+		"Khác"
+	]
+},
+
+{
+    "key": "gl-status",
+    "type": "select_one",
+    "label": "Tình trạng cây",
+    "placeholder": "Đánh giá tình trạng cây đang quan sát",
+    "options": [
+    	"Sinh trưởng trung bình",
+		"Sinh trưởng tốt",
+		"Sinh trưởng kém",
+		"Sâu bệnh",
+		"Nấm bệnh",
+		"Gãy thân"
+	]
+},
+
+{
+    "key": "gl_planter",
+    "type": "select_one",
+    "label": "Do ai trồng?",
+    "placeholder": "Xác định đối tượng trồng cây",
+    "options": [
+		"Cơ quan nhà nước",
+		"Hộ gia đình",
+		"Cộng đồng",
+		"Trường học",
+		"Lực lượng vũ trang",
+		"Doanh nghiệp",
+		"Khác"
+	]
+},
+
+{
+    "key": "gl_purpose",
+    "type": "select_multiple",
+    "label": "Mục đích trồng",
+    "placeholder": "Có thể chọn 1 hoặc nhiều mục đích",
+    "options": [
+		"Bờ bao chắn gió",
+		"Bờ kè",
+		"Bóng mát khuôn viên",
+		"Cảnh quan đường phố",
+		"Lấy gỗ",
+		"Trồng rừng",
+		"Mục đích khác"
+	]
+}
 }
