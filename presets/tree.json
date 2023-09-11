@@ -2,7 +2,7 @@
     "icon": "tree",
     "color": "#2D9905",
     "fields": [
-        "name", "tree-species"],
+        "name", "tree-species", "planting_year", "tree-status", "tree_planter", "tree_purpose"],
     "geometry": [
         "point", "area"
     ],
