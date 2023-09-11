@@ -1,0 +1,34 @@
+{
+  "name": "mapeo-config-gialai",
+  "version": "1.0",
+  "description": "Mapeo default config (categories, icons, questions)",
+  "dependencies": {},
+  "devDependencies": {
+    "mapeo-settings-builder": "^3.4.1",
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "build": "mkdirp build && mapeo-settings build -l 'en' -o build/${npm_package_name}-v${npm_package_version}.mapeosettings",
+    "extract-messages": "mkdirp messages && mapeo-settings extract-messages -o messages/en.json",
+    "prepublishOnly": "rimraf dist && mkdirp dist && npm run -s build && tar -C dist -xf build/${npm_package_name}-v${npm_package_version}.mapeosettings",
+    "test": "mapeo-settings lint"
+  },
+  "author": "PanNature",
+  "license": "CC-BY-NC-4.0",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/presets.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digidem/mapeo-default-config.git"
+  },
+  "keywords": [
+    "mapeo"
+  ],
+  "bugs": {
+    "url": "https://github.com/digidem/mapeo-default-config/issues"
+  },
+  "homepage": "https://github.com/digidem/mapeo-default-config#readme"
+}
