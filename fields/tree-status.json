@@ -1,0 +1,14 @@
+{
+    "key": "tree-status",
+    "type": "select_one",
+    "label": "Tình trạng cây",
+    "placeholder": "Đánh giá tình trạng cây đang quan sát",
+    "options": [
+    	"Sinh trưởng trung bình",
+		"Sinh trưởng tốt",
+		"Sinh trưởng kém",
+		"Sâu bệnh",
+		"Nấm bệnh",
+		"Gãy thân"
+	]
+}
