@@ -75,13 +75,13 @@
     "label": "Do ai trồng?",
     "placeholder": "Xác định đối tượng trồng cây",
     "options": [
-    	"Meteorological",
-    	"Air",
-    	"Soil",
-    	"Water",
-    	"Mineral",
-        "Forestry/vegetation",
-    	"Other"
+		"Cơ quan nhà nước",
+		"Hộ gia đình",
+		"Cộng đồng",
+		"Trường học",
+		"Lực lượng vũ trang",
+		"Doanh nghiệp",
+		"Khác"
 	]
 }
 
