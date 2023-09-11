@@ -1,0 +1,15 @@
+{
+    "key": "tree_planter",
+    "type": "select_one",
+    "label": "Do ai trồng?",
+    "placeholder": "Xác định đối tượng trồng cây",
+    "options": [
+		"Cơ quan nhà nước",
+		"Hộ gia đình",
+		"Cộng đồng",
+		"Trường học",
+		"Lực lượng vũ trang",
+		"Doanh nghiệp",
+		"Khác"
+	]
+}
