@@ -6,10 +6,7 @@ on:
       version:
         description: '(Optional) Version name, in format v1.2.3'
         required: false
-
-              - name: Setup Node.js environment
-                uses: actions/setup-node@v3.8.1
-            
+        
             
 name: Build & Release
 
@@ -23,7 +20,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Use Node.js 12
+      - name: Use Node.js 16
         uses: actions/setup-node@v1
         with:
           node-version: '12'
