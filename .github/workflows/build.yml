@@ -82,11 +82,11 @@ jobs:
       artifact: ${{ steps.filename.outputs.filename }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Use Node.js 12
-        uses: actions/setup-node@v1
+        uses: actions/checkout@v4.0.0
+      - name: Use Node.js 16
+        uses: actions/setup-node@v3.8.1
         with:
-          node-version: '12'
+          node-version: '16'
       - name: Get package name
         id: pkg_name
         uses: notiz-dev/github-action-json-property@release
