@@ -21,7 +21,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.0.0
       - name: Use Node.js 16
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3.8.1
         with:
           node-version: '12'
       - name: Configure git user & email
@@ -61,7 +61,7 @@ jobs:
           echo ::set-output name=tag::$TAG
       - name: Create Release
         id: release
-        uses: actions/create-release@v1
+        uses: actions/create-release@v1.1.4
         continue-on-error: true # Ignore failure if release already exists
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
@@ -112,7 +112,7 @@ jobs:
           value: ${{ steps.version.outputs.version }}
       - name: Create filename
         id: filename
-        run: echo ::set-output name=filename::${{ steps.pkg_name.outputs.prop }}_${{ steps.version.outputs.version }}.mapeosettings
+        run: echo ::set-output name=filename::${{ steps.pkg_name.outputs.prop }}_${{ steps.version.outputs.version }}.mapeosettings >> $GITHUB_OUTPUT
       - run: npm ci
       - name: Build asset
         id: build_asset
