@@ -19,7 +19,7 @@ jobs:
       version: ${{ steps.pkg.outputs.prop }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4.0.0
       - name: Use Node.js 16
         uses: actions/setup-node@v1
         with:
@@ -119,7 +119,7 @@ jobs:
         run: |
           mkdir -p build
           $(npm bin)/mapeo-settings build -l 'en' -o build/${{ steps.filename.outputs.filename }}
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3.1.3
         with:
           name: ${{ steps.filename.outputs.filename }}
           path: build/${{ steps.filename.outputs.filename }}
@@ -139,7 +139,7 @@ jobs:
       - name: Display structure of downloaded files
         run: ls -R
       - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
+        uses: tanyagray/action-upload-release-asset@v1.1.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
